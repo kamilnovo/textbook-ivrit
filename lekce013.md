@@ -1,4 +1,5 @@
-# Lekce 13: Izraelská kultura a národní svátky \
+# Lekce 13
+Izraelská kultura a národní svátky \
 (תרבות וחגים לאומיים)
 
 ## 1. Článek
@@ -8,34 +9,34 @@
 
 ## 2. Slovíčka (v pořadí podle článku)
 
-| Slovíčko (Kořen) | Význam | Výslovnost | Příklad |
-| :--- | :--- | :--- | :--- |
-| תרבות (ת.ר.ב.ת) | kultura | tarbut | תרבות ישראלית |
-| פסיפס (---) | mozaika | psifas | פסיפס מרתק |
-| מסורת (מ.ס.ר) | tradice | masoret | מסורת יהודית |
-| לאומי (ל.א.ם) | národní | le'umi | חגים לאומיים |
-| עצמאות (ע.צ.ם) | nezávislost | atzma'ut | יום העצמאות |
-| זיכרון (ז.כ.ר) | paměť / vzpomínka | zikaron | יום הזיכרון |
-| מטס (ט.ו.ס) | letecká přehlídka | matas | מטס חיל האוויר |
-| התייחדות (י.ח.ד) | uctění památky | hitjachadut | אווירה של התייחדות |
-| געגוע (ג.ע.ג.ע) | stesk / touha | ga'agua | געגועים ותקוות |
-| תקווה (ק.ו.ה) | naděje | tikva | התקווה היא ההמנון |
+| Kořen | Slovíčko | Význam | Výslovnost | Příklad |
+| :--- | :--- | :--- | :--- | :--- |
+| ר.ב.ה | תרבות | kultura | tarbut | תרבות ישראלית |
+| --- | פסיפס | mozaika | psifas | פסיפס מרתק |
+| מ.ס.ר | מסורת | tradice | masoret | מסורת יהודית |
+| ל.א.ם | לאומי | národní | le'umi | חגים לאומיים |
+| ע.צ.ם | עצמאות | nezávislost | atzma'ut | יום העצמאות |
+| ז.כ.ר | זיכרון | paměť / vzpomínka | zikaron | יום הזיכרון |
+| ט.ו.ס | מטס | letecká přehlídka | matas | מטס חיל האוויר |
+| י.ח.ד | התייחדות | uctění památky | hitjachadut | אווירה של התייחדות |
+| ג.ע.ג.ע | געגוע | stesk / touha | ga'agua | געגועים ותקוות |
+| ק.ו.ה | תקווה | naděje | tikva | התקווה היא ההמנון |
 
 ## 3. Gramatický výklad
-Kořen **ק.ו.ה** souvisí s čekáním a nadějí.  
-- **תקווה** (Tikva): naděje.  
-- **לקוות** (Lekavot): doufat.  
-- **מקווה** (Mikve): rituální lázeň (shromaždiště vody).  
+Kořen **ר.ב.ה** souvisí s růstem a množením.  
+- **תרבות** (Tarbut): kultura (to, co se pěstuje/rozvíjí).  
+- **הרבה** (Harbe): hodně.  
+- **לרבות** (Lirbot): množit se.  
 
 ## 4. Slovíčka pro Anki
-Hebrejsky (Kořen);Význam;Výslovnost;Příklad  
-תרבות (ת.ר.ב.ת);kultura;tarbut;תרבות ישראלית  
-פסיפס (---);mozaika;psifas;פסיפס מרתק  
-מסורת (מ.ס.ר);tradice;masoret;מסורת יהודית  
-לאומי (ל.א.ם);národní;le'umi;חגים לאומיים  
-עצמאות (ע.צ.ם);nezávislost;atzma'ut;יום העצמאות  
-זיכרון (ז.כ.ר);paměť / vzpomínka;zikaron;יום הזיכרון  
-מטס (ט.ו.ס);letecká přehlídka;matas;מטס חיל האוויר  
-התייחדות (י.ח.ד);uctění památky;hitjachadut;אווירה של התייחדות  
-געגוע (ג.ע.ג.ע);stesk / touha;ga'agua;געגועים ותקוות  
-תקווה (ק.ו.ה);naděje;tikva;התקווה היא ההמנון
+Hebrejsky;Kořen;Význam;Výslovnost;Příklad  
+תרבות;ר.ב.ה;kultura;tarbut;תרבות ישראלית  
+פסיפס;---;mozaika;psifas;פסיפס מרתק  
+מסורת;מ.ס.ר;tradice;masoret;מסורת יהודית  
+לאומי;ל.א.ם;národní;le'umi;חגים לאומיים  
+עצמאות;ע.צ.ם;nezávislost;atzma'ut;יום העצמאות  
+זיכרון;ז.כ.ר;paměť / vzpomínka;zikaron;יום הזיכרון  
+מטס;ט.ו.ס;letecká přehlídka;matas;מטס חיל האוויר  
+התייחדות;י.ח.ד;uctění památky;hitjachadut;אווירה של התייחדות  
+געגוע;ג.ע.ג.ע;stesk / touha;ga'agua;געגועים ותקוות  
+תקווה;ק.ו.ה;naděje;tikva;התקווה היא ההמנון
