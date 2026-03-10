@@ -3,22 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <style>
-        body { font-family: "Segoe UI", Arial, sans-serif; line-height: 1.6; padding: 20px; max-width: 900px; margin: auto; }
-        .rtl { direction: rtl; text-align: right; font-family: "David CLM", "Assistant", serif; font-size: 1.3em; }
-        table { border-collapse: collapse; width: 100%; margin: 25px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        th, td { border: 1px solid #ddd; padding: 12px; }
+        body { font-family: "Segoe UI", Arial, sans-serif; line-height: 1.7; padding: 30px; max-width: 1000px; margin: auto; font-size: 1.1em; color: #333; }
+        h1, h2 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        .rtl { direction: rtl; text-align: right; font-family: "David CLM", "Assistant", serif; font-size: 1.35em; margin: 20px 0; line-height: 1.8; }
+        table { border-collapse: collapse; width: 100%; margin: 25px 0; background: #fff; }
+        th, td { border: 1px solid #dee2e6; padding: 14px; }
         th { background-color: #f8f9fa; font-weight: bold; text-align: center; }
-        .heb-col { direction: ltr; text-align: left; font-weight: bold; min-width: 150px; }
-        .heb-rtl { direction: rtl; text-align: right; font-family: "David CLM", serif; }
-        .grammar-box { background-color: #f1f3f5; padding: 15px; border-left: 5px solid #228be6; border-radius: 4px; }
-        .anki-preview { background-color: #fff9db; padding: 10px; border: 1px dashed #fab005; font-family: monospace; font-size: 0.9em; white-space: pre-wrap; }
+        .heb-word { font-family: "David CLM", serif; font-size: 1.3em; font-weight: bold; text-align: left; direction: ltr; color: #000; }
+        .heb-example { direction: rtl; text-align: right; font-family: "David CLM", serif; font-size: 1.25em; }
+        .grammar-box { background-color: #f8f9fa; padding: 20px; border-left: 6px solid #3498db; border-radius: 5px; margin: 20px 0; }
+        .anki-preview { background-color: #fff9db; padding: 15px; border: 1px dashed #f1c40f; font-family: "Courier New", monospace; font-size: 1.15em; white-space: pre-wrap; margin-top: 20px; }
+        .root-cell { text-align: center; font-weight: bold; color: #7f8c8d; }
     </style>
 </head>
 <body>
     <h1>Lekce 13: Izraelská kultura a národní svátky</h1>
     
     <h2>1. Článek</h2>
-    <p class="rtl">התרבות הישראלית היא פסיפס מרתק של מסורת יהודית ומודרניות מערבית. החגים הלאומיים, כמו יום העצמאות ויום הזיכרון, ממלאים תפקיד מרכזי בחיי העם. ביום העצמאות נהוג לערוך פיקניקים ולצפות במטס של חיל האוויר, בעוד שביום הזיכרון שוררת אווירה של התייחדות עם הנופלים. מוזיקה ישראלית, המושמעת ללא הפסקה בתחנות כמו גלגל"צ, משקפת את הגעגועים והתקוות של החברה. היכולת לחגוג ולזכור בו-זמנית היא מאפיין ייחודי של הזהות הישראלית.</p>
+    <div class="rtl">התרבות הישראלית היא פסיפס מרתק של מסורת יהודית ומודרניות מערבית. החגים הלאומיים, כמו יום העצמאות ויום הזיכרון, ממלאים תפקיד מרכזי בחיי העם. ביום העצמאות נהוג לערוך פיקניקים ולצפות במטס של חיל האוויר, בעוד שביום הזיכרון שוררת אווירה של התייחדות עם הנופלים. מוזיקה ישראלית, המושמעת ללא הפסקה בתחנות כמו גלגל"צ, משקפת את הגעגועים והתקוות של החברה. היכולת לחגוג ולזכור בו-זמנית היא מאפיין ייחודי של הזהות הישראלית.</div>
 
     <h2>2. Slovíčka</h2>
     <table>
@@ -32,16 +34,16 @@
             </tr>
         </thead>
         <tbody>
-            <tr><td class="heb-col">עצמאות</td><td>ע.צ.ם</td><td>nezávislost</td><td>atzma'ut</td><td class="heb-rtl">יום העצמאות ה-76</td></tr>
-            <tr><td class="heb-col">זיכרון</td><td>ז.כ.ר</td><td>paměť / vzpomínka</td><td>zikaron</td><td class="heb-rtl">יום הזיכרון לחללי צה"ל</td></tr>
-            <tr><td class="heb-col">מסורת</td><td>מ.ס.ר</td><td>tradice</td><td>masoret</td><td class="heb-rtl">מסורת יהודית עתיקה</td></tr>
-            <tr><td class="heb-col">מטס</td><td>ט.ו.ס</td><td>letecká přehlídka</td><td>matas</td><td class="heb-rtl">המטס מעל תל אביב</td></tr>
-            <tr><td class="heb-col">געגוע</td><td>ג.ע.ג.ע</td><td>stesk / touha</td><td>ga'agua</td><td class="heb-rtl">געגועים הביתה</td></tr>
-            <tr><td class="heb-col">תקווה</td><td>ק.ו.ה</td><td>naděje</td><td>tikva</td><td class="heb-rtl">התקווה היא ההמנון</td></tr>
-            <tr><td class="heb-col">לאומי</td><td>ל.א.ם</td><td>národní</td><td>le'umi</td><td class="heb-rtl">חג לאומי חשוב</td></tr>
-            <tr><td class="heb-col">התייחדות</td><td>י.ח.ד</td><td>rozjímání / uctění památky</td><td>hitjachadut</td><td class="heb-rtl">התייחדות עם הנופלים</td></tr>
-            <tr><td class="heb-col">פסיפס</td><td>---</td><td>mozaika</td><td>psifas</td><td class="heb-rtl">פסיפס של תרבויות</td></tr>
-            <tr><td class="heb-col">חגיגה</td><td>ח.ג.ג</td><td>oslava</td><td>chagiga</td><td class="heb-rtl">חגיגה גדולה ברחוב</td></tr>
+            <tr><td class="heb-word">עצמאות</td><td class="root-cell">ע.צ.ם</td><td>nezávislost</td><td>atzma'ut</td><td class="heb-example">יום העצמאות ה-76</td></tr>
+            <tr><td class="heb-word">זיכרון</td><td class="root-cell">ז.כ.ר</td><td>paměť / vzpomínka</td><td>zikaron</td><td class="heb-example">יום הזיכרון לחללי צה"ל</td></tr>
+            <tr><td class="heb-word">מסורת</td><td class="root-cell">מ.ס.ר</td><td>tradice</td><td>masoret</td><td class="heb-example">מסורת יהודית עתיקה</td></tr>
+            <tr><td class="heb-word">מטס</td><td class="root-cell">ט.ו.ס</td><td>letecká přehlídka</td><td>matas</td><td class="heb-example">המטס מעל תל אביב</td></tr>
+            <tr><td class="heb-word">געגוע</td><td class="root-cell">ג.ע.ג.ع</td><td>stesk / touha</td><td>ga'agua</td><td class="heb-example">געגועים הביתה</td></tr>
+            <tr><td class="heb-word">תקווה</td><td class="root-cell">ק.ו.ה</td><td>naděje</td><td>tikva</td><td class="heb-example">התקווה היא ההמנון</td></tr>
+            <tr><td class="heb-word">לאומי</td><td class="root-cell">ל.א.ם</td><td>národní</td><td>le'umi</td><td class="heb-example">חג לאומי חשוב</td></tr>
+            <tr><td class="heb-word">התייחדות</td><td class="root-cell">י.ח.ד</td><td>uctění památky</td><td>hitjachadut</td><td class="heb-example">התייחדות עם הנופלים</td></tr>
+            <tr><td class="heb-word">פסיפס</td><td class="root-cell">---</td><td>mozaika</td><td>psifas</td><td class="heb-example">פסיפס של תרבויות</td></tr>
+            <tr><td class="heb-word">חגיגה</td><td class="root-cell">ח.ג.ג</td><td>oslava</td><td>chagiga</td><td class="heb-example">חגיגה גדולה ברחוב</td></tr>
         </tbody>
     </table>
 
@@ -49,9 +51,9 @@
     <div class="grammar-box">
         <p>Kořen <strong>ק.ו.ה</strong> souvisí s čekáním a nadějí.</p>
         <ul>
-            <li><strong>תקווה</strong> (Tikva): naděje. Národní hymna Izraele se jmenuje <em>Ha-Tikva</em>.</li>
-            <li><strong>לקוות</strong> (Lekavot): doufat.</li>
-            <li><strong>מקווה</strong> (Mikve): rituální lázeň (původně místo, kde se „shromažďuje“ voda).</li>
+            <li><strong>תקווה</strong> (Tikva) – naděje. Národní hymna Izraele se jmenuje <em>Ha-Tikva</em>.</li>
+            <li><strong>לקוות</strong> (Lekavot) – doufat.</li>
+            <li><strong>מקווה</strong> (Mikve) – rituální lázeň (shromaždiště vody).</li>
         </ul>
     </div>
 
@@ -64,7 +66,7 @@
 געגוע (ג.ע.ג.ע);stesk / touha;ga'agua;געגועים הביתה
 תקווה (ק.ו.ה);naděje;tikva;התקווה היא ההמנון
 לאומי (ל.א.ם);národní;le'umi;חג לאומי חשוב
-התייחדות (י.ח.ד);rozjímání / uctění památky;hitjachadut;התייחדות עם הנופלים
+התייחדות (י.ח.ד);uctění památky;hitjachadut;התייחדות עם הנופלים
 פסיפס (---);mozaika;psifas;פסיפס של תרבויות
 חגיגה (ח.ג.ג);oslava;chagiga;חגיגה גדולה ברחוב
     </div>
