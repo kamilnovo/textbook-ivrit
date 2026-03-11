@@ -1,11 +1,11 @@
-﻿Slovíčko;Kořen;Výslovnost;Význam;Příklad
-‎מגזר;ג.ז.ר;Migzar;sektor / odvětví;המגזר החרדי
-‎חילוני;ח.ל.נ;Chiloni;sekulární;בית ספר חילוני
-‎דתי;ד.ת;Dati;náboženský;משפחה דתית
-‎חרדי;ח.ר.ד;Charedi;ultraortodoxní;הציבור החרדי
-‎זהות;ז.ה.ה;Zehut;identita;זהות לאומית
-‎עולה חדש;ע.ל.ה;Ole Chadaš;nový přistěhovalec;קליטת עולים חדשים
-‎סובלנות;ס.ב.ל;Sovlanut;tolerance;סובלנות הדדית
-‎הדדי;ה.ד.ד;Hadadi;vzájemný;כבוד הדדי
-‎קליטה;ק.ל.ט;Klita;přijetí / absorpce;מרכז קליטה
-‎מתח;מ.ת.ח;Metach;napětí / stres;מתח חברתי גבוה
+﻿#Slovíčko;Kořen;Výslovnost;Význam;Příklad;Tag
+‎מגזר;ג.ז.ר;migzar;sektor / odvětví;המגזר החרדי;podst_jméno lekce011 společnost
+‎חילוני;ח.ל.נ;chiloni;sekulární;בית ספר חילוני;příd_jméno lekce011 společnost
+‎דתי;ד.ת;dati;náboženský;משפחה דתית;příd_jméno lekce011 společnost
+‎חרדי;ח.ר.ד;charedi;ultraortodoxní;הציבור החרדי;příd_jméno lekce011 společnost
+‎זהות;ז.ה.ה;zehut;identita;זהות לאומית;podst_jméno lekce011 společnost
+‎עולה חדש;ע.ל.ה;ole chadaš;nový přistěhovalec;קליטת עולים חדשים;podst_jméno lekce011 společnost
+‎סובלנות;ס.ב.ל;sovlanut;tolerance;סובלנות הדדית;podst_jméno lekce011 společnost
+‎הדדי;ה.ד.ד;hadadi;vzájemný;כבוד הדדי;příd_jméno lekce011 společnost
+‎קליטה;ק.ל.ט;klita;přijetí / absorpce;מרכז קליטה;podst_jméno lekce011 společnost
+‎מתח;מ.ת.ח;metach;napětí / stres;מתח חברתי גבוה;podst_jméno lekce011 společnost
