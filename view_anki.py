@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 import sys
 
+# LRO (Left-to-Right Override) znak
+LRO = '\u202d'
+PDF = '\u202c' # Pop Directional Formatting
+
 def view_csv(filename):
     try:
         with open(filename, 'r', encoding='utf-8-sig') as f:
@@ -8,17 +12,18 @@ def view_csv(filename):
             if not lines: return
             
             header = lines[0].lstrip('#').split(';')
-            # Hlavička s jasným oddělením
-            print(f"\033[1m{'ID':<5} | {'SLOVÍČKO':<20} | {'KOŘEN':<10} | {'VÝSLOVNOST':<15} | {'VÝZNAM'}\033[0m")
+            # Hlavička
+            h_str = f"{'ID':<5} | {'SLOVÍČKO':<20} | {'KOŘEN':<10} | {'VÝSLOVNOST':<15} | {'VÝZNAM'}"
+            print(f"{LRO}\033[1m{h_str}\033[0m{PDF}")
             print("-" * 80)
             
             for i, line in enumerate(lines[1:], 1):
-                clean_line = line.lstrip('\u200e')
-                parts = clean_line.split(';')
+                parts = line.lstrip('\u200e').split(';')
                 if len(parts) < 4: continue
                 
-                # Prefix [i] zajistí LTR zobrazení celého řádku
-                print(f"[{i:02}] {parts[0]:<20} | {parts[1]:<10} | {parts[2]:<15} | {parts[3]}")
+                # Sestavení řádku s LRO na začátku
+                row_str = f"[{i:02}] {parts[0]:<20} | {parts[1]:<10} | {parts[2]:<15} | {parts[3]}"
+                print(f"{LRO}{row_str}{PDF}")
     except Exception as e:
         print(f"Chyba: {e}")
 
