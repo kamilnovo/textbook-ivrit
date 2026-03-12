@@ -9,11 +9,11 @@
         .heb-title { font-family: "David CLM", serif; font-size: 2em; direction: rtl; margin-top: 5px; text-align: center; }
         h3 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 8px; margin-top: 35px; }
         .article-rtl { direction: rtl; text-align: right; font-family: "David CLM", serif; font-size: 14pt; background: #fdfdfd; padding: 25px; border-radius: 8px; border: 1px solid #eee; margin: 20px 0; line-height: 1.8; }
-        table { border-collapse: collapse; width: 100%; margin: 25px 0; }
+        table { border-collapse: collapse; width: 100%; margin: 25px 0; direction: ltr !important; }
         th, td { border: 1px solid #dee2e6; padding: 12px; }
-        th { background-color: #f8f9fa; font-weight: bold; text-align: center; }
-        .heb-word { font-family: "David CLM", serif; font-size: 1.4em; font-weight: bold; text-align: right; direction: rtl; width: 15%; }
-        .root-col { text-align: center; color: #666; width: 10%; }
+        th { direction: ltr;  background-color: #f8f9fa; font-weight: bold; text-align: center; }
+        .heb-word { direction: rtl; unicode-bidi: isolate;  font-family: "David CLM", serif; font-size: 1.4em; font-weight: bold; text-align: right; direction: rtl; width: 15%; }
+        .root-col { direction: rtl; unicode-bidi: isolate;  text-align: center; direction: ltr;  color: #666; width: 10%; }
         .pronun-col { width: 15%; font-style: italic; color: #555; text-align: center; }
         .meaning-col { width: 20%; text-align: center; }
         .example-rtl { direction: rtl; text-align: left; font-family: "David CLM", serif; font-size: 1.35em; width: 40%; }
@@ -31,7 +31,7 @@
     <div class="article-rtl">התרבות הישראלית היא פסיפס מרתק של מסורת יהודית ומודרניות מערבית. החגים הלאומיים, כמו יום העצמאות ויום הזיכרון, ממלאים תפקיড מרכזי בחיי העם. ביום העצמאות נהוג לערוך פיקניקים ולצפות במטס של חיל האוויר, בעוד שביום הזיכרון שוררת אווירה של התייחדות עם הנופלים. מוזיקה ישראלית, המושמעת ללא הפסקה בתחנות כמו גלגל"צ, משקפת את הגעגועים והתקוות של החברה. היכולת לחגוג ולזכור בו-זמנית היא מאפיין ייחודי של הזהות הישראלית.</div>
 
     <h3>2. Slovíčka</h3>
-    <table>
+    <table dir="ltr">
         <thead>
             <tr>
                 <th>Hebrejsky</th>
