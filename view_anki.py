@@ -1,31 +1,26 @@
 #!/usr/bin/env python3
-import csv
 import sys
 
 def view_csv(filename):
     try:
         with open(filename, 'r', encoding='utf-8-sig') as f:
-            lines = f.readlines()
+            lines = [l.strip() for l in f.readlines() if l.strip()]
             if not lines: return
             
-            # Zpracování hlavičky (odstranění # a rozdělení)
-            header_line = lines[0].strip().lstrip('#')
-            header = header_line.split(';')
+            header = lines[0].lstrip('#').split(';')
+            # Hlavička s jasným oddělením
+            print(f"\033[1m{'ID':<5} | {'SLOVÍČKO':<20} | {'KOŘEN':<10} | {'VÝSLOVNOST':<15} | {'VÝZNAM'}\033[0m")
+            print("-" * 80)
             
-            print(f"\033[1m{' | '.join([f'{h:<15}' for h in header[:4]])}\033[0m")
-            print("-" * 70)
-            
-            for line in lines[1:]:
-                # Odstranění LRM a rozdělení
-                clean_line = line.strip().lstrip('\u200e')
+            for i, line in enumerate(lines[1:], 1):
+                clean_line = line.lstrip('\u200e')
                 parts = clean_line.split(';')
                 if len(parts) < 4: continue
                 
-                # Výpis prvních 4 sloupců se zarovnáním
-                # Přidáváme LRM na konec hebrejských polí, aby terminál nepohltil mezeru
-                print(f"{parts[0]:<15} | {parts[1]:<15} | {parts[2]:<15} | {parts[3]}")
-    except FileNotFoundError:
-        print(f"Soubor {filename} nebyl nalezen.")
+                # Prefix [i] zajistí LTR zobrazení celého řádku
+                print(f"[{i:02}] {parts[0]:<20} | {parts[1]:<10} | {parts[2]:<15} | {parts[3]}")
+    except Exception as e:
+        print(f"Chyba: {e}")
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
