@@ -1,27 +1,48 @@
-# Lekce 11: Izraelská společnost a demografie (חברה ודמוגרפיה)
+# Lekce 11: Izraelská společnost
 
-## 1. Článek (Ve Writeru nastavte RTL)
-החברה הישראלית מתאפיינת במגוון רחב של קבוצות ומגזרים. אחד הנושאים המרכזיים שמעסיקים את הציבור הוא המתח בין דתיים לחילונים. בשנים האחרונות גדלה המודעות לחשיבות השילוב של הציבור החרדי בשוק התעסוקה ובצה"ל. בנוסף, ישראל ממשיכה לקלוט עולים חדשים מרחבי העולם כחלק מתהליך העלייה (אליה). כל מגזר שואף לשמור על הזהות הייחודית שלו, אך במקביל קיימת שאיפה ליצור אחדות לאומית וסובלנות הדדית למרות חילוקי הדעות העמוקים.
+[Lekce 1](lekce001.md) | [Lekce 2](lekce002.md) | [Lekce 3](lekce003.md) | [Lekce 4](lekce004.md) | [Lekce 5](lekce005.md) | [Lekce 6](lekce006.md) | [Lekce 7](lekce007.md) | [Lekce 8](lekce008.md) | [Lekce 9](lekce009.md) | [Lekce 10](lekce010.md) | [Lekce 11](lekce011.md) | [Lekce 12](lekce012.md) | [Lekce 13](lekce013.md)
 
-## 2. Slovíčka (Tento blok převeďte na tabulku přes Středník)
-Hebrejsky;Kořen;Výslovnost;Význam;Příklad
-מגזר;ג.ז.ר;Migzar;sektor / odvětví;המגזר החרדי
-חילוני;ח.ל.נ;Chiloni;sekulární;בית ספר חילוני
-דתי;ד.ת;Dati;náboženský;משפחה דתית
-חרדי;ח.ר.ד;Charedi;ultraortodoxní;הציבור החרדי
-זהות;ז.ה.ה;Zehut;identita;זהות לאומית
-עולה חדש;ע.ל.ה;Ole Chadaš;nový přistěhovalec;קליטת עולים חדשים
-סובלנות;ס.ב.ל;Sovlanut;tolerance;סובלנות הדדית
-הדדי;ה.ד.ד;Hadadi;vzájemný;כבוד הדדי
-קליטה;ק.ל.ט;Klita;přijetí / absorpce;מרכז קליטה
-מתח;מ.ת.ח;Metach;napětí / stres;מתח חברתי גבוה
+## 1. Článek
+החברה הישראלית מתאפיינת במגוון רחב של קבוצות ומגזרים. אחד הנושאים המרכזיים הוא המתח בין דתיים לחילונים. בשנים האחרונות גדלה המודעות לשילוב הציבור החרדי בשוק התעסוקה ובצה"ל. בנוסף, ישראל ממשיכה לקלוט עולים חדשים מרחבי העולם. כל מגזר שואף לשמור על הזהות הייחודית שלו, אך קיימת שאיפה לאחדות לאומית וסובלנות הדדית.
 
-## 3. Gramatický výklad: Kořen S.B.L (ס.ב.ל)
-Kořen **ס.ב.ל** je v hebrejštině velmi hluboký. Původně znamená „nést břemeno“.
-- **לסבול** (Lisbol): trpět (nést břemeno bolesti).
-- **סבלנות** (Savlanut): trpělivost (schopnost nést břemeno času).
-- **סובלנות** (Sovlanut): tolerance (schopnost „unést“ odlišnost druhého).
-V médiích se často mluví o nedostatku **סובלנות** mezi různými **מגזרים** (sektory).
+## 2. Slovíčka
+| Hebrejsky | Kořen | Výslovnost | Význam | Příklad |
+|---|---|---|---|---|
+| מגזר | ג.ז.ר | migzar | sektor / odvětví | המגזר החרדי |
+| חילוני | ח.ל.נ | chiloni | sekulární | בית ספר חילוני |
+| דתי | ד.ת | dati | náboženský | משפחה דתית |
+| חרדי | ח.ר.ד | charedi | ultraortodoxní | הציבור החרדי |
+| זהות | ז.ה.ה | zehut | identita | זהות לאומית |
+| עולה חדש | ע.ל.ה | ole chadaš | nový přistěhovalec | קליטת עולים חדשים |
+| סובלנות | ס.ב.ל | sovlanut | tolerance | סובלנות הדדית |
+| הדדי | ה.ד.ד | hadadi | vzájemný | כבוד הדדי |
+| קליטה | ק.ל.ט | klita | přijetí / absorpce | מרכז קליטה |
+| מתח | מ.ת.ח | metach | napětí / stres | מתח חברתי גבוה |
 
-## 4. Anki Import Ready
-CSV data naleznete v samostatném souboru `anki_lekce011.csv`.
+## 3. Gramatika
+<p>Kořen <strong>ס.ב.ל</strong> znamená „nést břemeno“. <strong>סובלנות</strong> (sovlanut - tolerance) je schopnost unést odlišnost druhého, zatímco <strong>סבלנות</strong> (savlanut - trpělivost) je schopnost nést břemeno času.</p><p>Slovo <strong>מגזר</strong> (migzar - sektor) souvisí s řezáním nebo vymezováním (gezer).</p>
+
+## 4. Cvičení
+1. חשוב לגלות _______ כלפי האחר.
+1. הוא הגיע לישראל כ_______.
+1. יש _______ גבוה בין הקבוצות.
+
+## 5. Anki náhled
+```text
+#Slovíčko;Kořen;Výslovnost;Význam;Příklad;Tag
+מגזר;ג.ז.ר;migzar;sektor / odvětví;המגזר החרדי;společnost lekce011
+חילוני;ח.ל.נ;chiloni;sekulární;בית ספר חילוני;společnost lekce011
+דתי;ד.ת;dati;náboženský;משפחה דתית;společnost lekce011
+חרדי;ח.ר.ד;charedi;ultraortodoxní;הציבור החרדי;společnost lekce011
+זהות;ז.ה.ה;zehut;identita;זהות לאומית;společnost lekce011
+עולה חדש;ע.ל.ה;ole chadaš;nový přistěhovalec;קליטת עולים חדשים;společnost lekce011
+סובלנות;ס.ב.ל;sovlanut;tolerance;סובלנות הדדית;společnost lekce011
+הדדי;ה.ד.ד;hadadi;vzájemný;כבוד הדדי;společnost lekce011
+קליטה;ק.ל.ט;klita;přijetí / absorpce;מרכז קליטה;společnost lekce011
+מתח;מ.ת.ח;metach;napětí / stres;מתח חברתי גבוה;společnost lekce011
+```
+
+## 6. Řešení
+* סובלנות
+* עולה חדש
+* מתח

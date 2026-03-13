@@ -16,7 +16,7 @@ th { background-color: #f8f9fa; font-weight: bold; text-align: center; }
 .heb-word { font-family: 'David CLM', serif; font-size: 1.4em; font-weight: bold; text-align: right; direction: rtl; width: 15%; unicode-bidi: isolate; }
 .root-col { text-align: center; color: #666; width: 10%; direction: rtl; unicode-bidi: isolate; }
 .pronun-col { width: 15%; font-style: italic; color: #555; text-align: left; padding-left: 20px; }
-.meaning-col { width: 20%; text-align: left; padding-left: 20px; }
-.example-rtl { direction: rtl; text-align: right; font-family: 'David CLM', serif; font-size: 1.35em; width: 40%; unicode-bidi: isolate; }
+.meaning-col { width: 25%; text-align: left; padding-left: 20px; }
+.example-rtl { direction: rtl; text-align: right; font-family: 'David CLM', serif; font-size: 1.35em; width: 30%; unicode-bidi: isolate; }
 .grammar-box { background-color: #f0f7ff; padding: 25px; border-right: 6px solid #3498db; border-radius: 4px; margin: 25px 0; }
 .anki-preview { background-color: #fff9db; padding: 20px; border: 2px dashed #f1c40f; font-family: 'Courier New', monospace; font-size: 1.1em; white-space: pre-wrap; margin-top: 30px; }

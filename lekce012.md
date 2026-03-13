@@ -1,26 +1,48 @@
-# Lekce 12: Život a práce v Izraeli (חיים ועבודה בישראל)
+# Lekce 12: Život a práce v Izraeli
 
-## 1. Článek (Ve Writeru nastavte RTL)
-החיים בישראל משלבים בין עבודה אינטנסיבית לבין דגש חזק על משפחה ופנאי. מושג ה"וורק-לייף באלאנס" הופך ליותר פופולרי, אך עדיין ישראלים רבים עובדים שעות נוספות. אחד המאפיינים הייחודיים הוא שירות המילואים, שמשפיע על שוק העבודה ועל החיים האישיים. בתקופות של חופש, הישראלים אוהבים לטייל בארץ או לטוס לחו"ל. למרות הלחץ היומיומי, קיימת תחושה של ערבות הדדית וסיוע בעת צרה, מה שמקל על ההתמודדות עם אתגרי החיים.
+[Lekce 1](lekce001.md) | [Lekce 2](lekce002.md) | [Lekce 3](lekce003.md) | [Lekce 4](lekce004.md) | [Lekce 5](lekce005.md) | [Lekce 6](lekce006.md) | [Lekce 7](lekce007.md) | [Lekce 8](lekce008.md) | [Lekce 9](lekce009.md) | [Lekce 10](lekce010.md) | [Lekce 11](lekce011.md) | [Lekce 12](lekce012.md) | [Lekce 13](lekce013.md)
 
-## 2. Slovíčka (Středník)
-Hebrejsky;Kořen;Výslovnost;Význam;Příklad
-פנאי;פ.נ.י;Pnai;volný čas;תרבות הפנאי
-שעות נוספות;י.ס.ף;Ša'ot Nosafot;přesčasy;לעבוד שעות נוספות
-מילואים;מ.ל.א;Miluim;vojenská záloha;שירות מילואים פעיל
-חופש;ח.פ.ש;Chofeš;dovolená / svoboda;לצאת לחופש שנתי
-חו"ל;---;Chul;zahraničí;לטוס לחו"ל בקיץ
-ערבות;ע.ר.ב;Aravut;záruka / ručení;ערבות הדדית
-צרה;צ.ר.ר;Tzara;potíž / neštěstí;חבר בעת צרה
-אתגר;ת.ג.ר;Etgar;výzva;אתגר מקצועי חדש
-שגרה;ש.ג.ר;Šigra;rutina;לחזור לשגרה
-איזון;א.ז.נ;Izun;rovnováha / balans;איזון בין עבודה לבית
+## 1. Článek
+החיים בישראל משלבים בין עבודה אינטנסיבית לבין דגש חזק על משפחה ופנאי. מושג ה"וורק-לייף באלאנס" הופך ליותר פופולרי, אך עדיין ישראלים רבים עובדים שעות נוספות. שירות המילואים משפיע על שוק העבודה ועל החיים האישיים. בתקופות של חופش, הישראלים אוהבים לטייל או לטוס לחו"ל. למרות הלחץ, קיימת תחושה של ערבות הדדית וסיוע בעת צרה.
 
-## 3. Gramatický výklad: Kořen M.L.A (מ.ל.א)
-Kořen **מ.ל.א** znamená „plný“ nebo „naplnit“.
-- **מלא** (Male): plný.
-- **למלא** (Lemale): naplnit (kmen Pi'el).
-- **מילואים** (Miluim): vojenská záloha. Původně toto slovo znamenalo „doplnění“ nebo „výplň“ (např. v Bibli šlo o drahokamy vsazené do roucha). V moderním kontextu jde o vojáky, kteří „doplňují“ armádu v případě potřeby.
+## 2. Slovíčka
+| Hebrejsky | Kořen | Výslovnost | Význam | Příklad |
+|---|---|---|---|---|
+| פנאי | פ.נ.י | pnaj | volný čas | תרבות הפנאי |
+| שעות נוספות | י.ס.ף | ša'ot nosafot | přesčasy | לעבוד שעות נוספות |
+| מילואים | מ.ל.א | miluim | vojenská záloha | שירות מילואים פעיל |
+| חופש | ח.פ.ש | chofeš | dovolená / svoboda | לצאת לחופש שנתי |
+| חו"ל | --- | chul | zahraničí | לטוס לחו"ל בקיץ |
+| ערבות | ע.ר.ב | aravut | záruka / ručení | ערבות הדדית |
+| צרה | צ.ר.ר | cara | potíž / neštěstí | חבר בעת צרה |
+| אתגר | ת.ג.ר | etgar | výzva | אתגר מקצועי חדש |
+| שגרה | ש.ג.ר | šigra | rutina | לחזור לשגרה |
+| איזון | א.ז.נ | izun | rovnováha / balans | איזון בין עבודה לבית |
 
-## 4. Anki Import Ready
-CSV data naleznete v souboru `anki_lekce012.csv`.
+## 3. Gramatika
+<p>Kořen <strong>מ.ל.א</strong> znamená „plný“ nebo „naplnit“. <strong>מילואים</strong> (miluim - záloha) původně znamenalo „doplnění“ nebo „výplň“ armády.</p><p>Slovo <strong>שגרה</strong> (šigra - rutina) souvisí s posíláním nebo plynulým tokem (š-g-r).</p>
+
+## 4. Cvičení
+1. הוא נקרא לשירות _______.
+1. צריך למצוא _______ בין עבודה למשפחה.
+1. הם טסים ל_______ בקיץ.
+
+## 5. Anki náhled
+```text
+#Slovíčko;Kořen;Výslovnost;Význam;Příklad;Tag
+פנאי;פ.נ.י;pnaj;volný čas;תרבות הפנאי;práce lekce012
+שעות נוספות;י.ס.ף;ša'ot nosafot;přesčasy;לעבוד שעות נוספות;práce lekce012
+מילואים;מ.ל.א;miluim;vojenská záloha;שירות מילואים פעיל;práce lekce012
+חופש;ח.פ.ש;chofeš;dovolená / svoboda;לצאת לחופש שנתי;práce lekce012
+חו"ל;---;chul;zahraničí;לטוס לחו"ל בקיץ;práce lekce012
+ערבות;ע.ר.ב;aravut;záruka / ručení;ערבות הדדית;práce lekce012
+צרה;צ.ר.ר;cara;potíž / neštěstí;חבר בעת צרה;práce lekce012
+אתגר;ת.ג.ר;etgar;výzva;אתגר מקצועי חדש;práce lekce012
+שגרה;ש.ג.ר;šigra;rutina;לחזור לשגרה;práce lekce012
+איזון;א.ז.נ;izun;rovnováha / balans;איזון בין עבודה לבית;práce lekce012
+```
+
+## 6. Řešení
+* מילואים
+* איזון
+* חו"ל
