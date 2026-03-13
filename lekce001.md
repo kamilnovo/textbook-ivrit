@@ -1,11 +1,13 @@
-# Lekce 1: Média a aktuality (מדיה וחדשות)
+# Lekce 1: Média a aktuality
+
+[Zpět na úvod](index.html)
 
 ## 1. Článek
-הבוקר פורסם כי הממשלה החליטה להשקיע משאבים נוספים בשיפור התשתיות. השר הממונה ציין כי המהלך נועד לחזק את הכלכלה ולספק מקומות עבודה חדשים לתושבים.
+הבוקר פורסם כי הממשלה החליטה להשקיע משאבים נוספים בשיפור התשתיות. השר הממונה ציין כי המהלך נועד לחזק את הכלכלה ולספק מקומות עבודה חדשים. התושבים מקווים כי המהלך יבוצע במהירות וישפר את איכות חייהם.
 
 ## 2. Slovíčka
 | Hebrejsky | Kořen | Výslovnost | Význam | Příklad |
-| :--- | :--- | :--- | :--- | :--- |
+|---|---|---|---|---|
 | לפרסם | פ.ר.ס.ם | lefarsem | publikovat / zveřejnit | פורסם כי הממשלה החליטה |
 | ממשלה | מ.ש.ל | memšala | vláda | הממשלה החליטה להשקיע |
 | להשקיע | ש.ק.ע | lehaškia | investovat | להשקיע משאבים נוספים |
@@ -17,17 +19,5 @@
 | כלכלה | כ.ל.כ.ל | kalkala | ekonomika | הכלכלה המקומית חזקה |
 | תושב | י.ש.ב | tošav | obyvatel | התושבים גרים בצפון |
 
-## 3. Gramatický výklad
-V textu vidíme pasivum **פורסם** (pursam) od slovesa *lefarsem*. V moderní hebrejštině se pasivum v médiích používá velmi často k vyjádření objektivity.
-Vazba **נועד ל-** (no'ad le-) se používá pro vyjádření účelu nebo určení (např. *Tato kniha je určena pro děti* – הספר הזה נועד לילדים).
-
-## 4. Cvičení
-**Doplňte správné slovíčko z tabulky do vět:**
-1. הבוקר _______ כי הממשלה החליטה להשקיע.
-2. המהלך _______ לחזק את הכלכלה.
-3. השר ה_______ על הפרויקט ציין את חשיבותו.
-
-## 5. Řešení cvičení
-1. פורסם
-2. נועד
-3. ממונה
+## 3. Gramatika
+<p>V textu vidíme pasivum <strong>פורסם</strong> (pursam) od slovesa <em>lefarsem</em>. V moderní hebrejštině se pasivum v médiích používá velmi často k vyjádření objektivity.</p><p>Kořen <strong>מ.ש.ל</strong> (M-Š-L) souvisí s vládnutím (memšala - vláda, limšol - vládnout).</p>
