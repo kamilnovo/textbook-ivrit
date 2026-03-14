@@ -512,7 +512,8 @@ def generate_lessons():
     <div class="content">
         <div class="main-header">
             <h1>Ivrit: Další krok</h1>
-            <div class="heb-title">(עברית: הצעad הבא)</div>
+            <div class="heb-title">(עברית: הצעד הבá)</div>
+
         </div>
         <div class="grammar-box">
             <p>Vítejte v učebnici moderní hebrejštiny pro mírně pokročilé.</p>
