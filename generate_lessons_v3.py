@@ -402,6 +402,14 @@ def generate_lessons():
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css?v={version}">
         <title>Lekce {l_num}</title>
+        <script>
+            (function() {{
+                const sw = localStorage.getItem('sidebarWidth');
+                if (sw) {{
+                    document.documentElement.style.setProperty('--sidebar-width', sw + 'px');
+                }}
+            }})();
+        </script>
         </head>
         <body>
         {html_sidebar}
@@ -488,6 +496,14 @@ def generate_lessons():
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css?v={version}">
     <title>Ivrit: Další krok - Úvod</title>
+    <script>
+        (function() {{
+            const sw = localStorage.getItem('sidebarWidth');
+            if (sw) {{
+                document.documentElement.style.setProperty('--sidebar-width', sw + 'px');
+            }}
+        }})();
+    </script>
 </head>
 <body>
     {index_sidebar}

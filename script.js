@@ -1,13 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
     const sidebar = document.querySelector(".sidebar");
-    const content = document.querySelector(".content");
     const resizer = document.querySelector(".resizer");
-    if (!sidebar || !resizer || !content) return;
+    if (!sidebar || !resizer) return;
 
+    // Load saved width from localStorage and apply it to CSS variable
     const savedWidth = localStorage.getItem("sidebarWidth");
     if (savedWidth) {
-        sidebar.style.width = savedWidth + "px";
-        content.style.marginLeft = savedWidth + "px";
+        document.documentElement.style.setProperty('--sidebar-width', savedWidth + "px");
     }
 
     let isResizing = false;
@@ -25,8 +24,9 @@ document.addEventListener('DOMContentLoaded', () => {
         let newWidth = e.clientX;
         if (newWidth < 150) newWidth = 150;
         if (newWidth > 600) newWidth = 600;
-        sidebar.style.width = newWidth + "px";
-        content.style.marginLeft = newWidth + "px";
+        
+        // Update CSS variable directly for smooth and instant response
+        document.documentElement.style.setProperty('--sidebar-width', newWidth + "px");
         localStorage.setItem("sidebarWidth", newWidth);
     });
 

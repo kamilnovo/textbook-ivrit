@@ -1,3 +1,7 @@
+:root {
+    --sidebar-width: 250px;
+}
+
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     line-height: 1.5;
@@ -9,7 +13,7 @@ body {
 }
 
 .sidebar {
-    width: 250px;
+    width: var(--sidebar-width);
     min-width: 150px;
     max-width: 600px;
     height: 100vh;
@@ -75,7 +79,7 @@ body.resizing-active {
 }
 
 .content {
-    margin-left: 250px; /* This will be updated by script.js if resized */
+    margin-left: var(--sidebar-width);
     padding: 40px 60px;
     flex: 1;
     background-color: white;
