@@ -393,7 +393,7 @@ def generate_lessons():
             active = ' class="active"' if link == f'lekce{l_id}.html' else ''
             html_sidebar += f'<a href="{link}"{active}>{name}</a>'
         html_sidebar += '</div><div class="resizer"></div></div>'
-
+        
         # HTML Content
         html = f"""<!DOCTYPE html>
         <html lang="cs">
@@ -407,6 +407,7 @@ def generate_lessons():
                 const sw = localStorage.getItem('sidebarWidth');
                 if (sw) {{
                     document.documentElement.style.setProperty('--sidebar-width', sw + 'px');
+                    document.documentElement.setAttribute('data-sidebar-set', 'true');
                 }}
             }})();
         </script>
@@ -414,7 +415,6 @@ def generate_lessons():
         <body>
         {html_sidebar}
         <div class="content">
-
         <div class="main-header">
             <h1>Lekce {l_num}<br>{lesson['title']}</h1>
             <div class="heb-title">({lesson['heb']})</div>
@@ -485,10 +485,7 @@ def generate_lessons():
         index_sidebar += f'<a href="{link}"{active}>{name}</a>'
     index_sidebar += '</div><div class="resizer"></div></div>'
 
-    with open('index.html', 'r', encoding='utf-8') as f:
-        content = f.read()
-    
-    # We will reconstruct index.html to be absolutely clean
+    # We will reconstruct index.html to be absolutely clean with full data
     new_index = f"""<!DOCTYPE html>
 <html lang="cs">
 <head>
@@ -501,7 +498,6 @@ def generate_lessons():
             const sw = localStorage.getItem('sidebarWidth');
             if (sw) {{
                 document.documentElement.style.setProperty('--sidebar-width', sw + 'px');
-                // Force immediate re-layout for some browsers
                 document.documentElement.setAttribute('data-sidebar-set', 'true');
             }}
         }})();
@@ -512,8 +508,7 @@ def generate_lessons():
     <div class="content">
         <div class="main-header">
             <h1>Ivrit: Další krok</h1>
-            <div class="heb-title">(עברית: הצעד הבá)</div>
-
+            <div class="heb-title">(עברית: הצעד הבא)</div>
         </div>
         <div class="grammar-box">
             <p>Vítejte v učebnici moderní hebrejštiny pro mírně pokročilé. Tato učebnice je navržena pro studenty, kteří již ovládají základy a chtějí se posunout k reálnému využití jazyka.</p>
