@@ -1,6 +1,6 @@
 # Lekce 7: Slang a idiomy
 
-[Lekce 1](lekce001.md) | [Lekce 2](lekce002.md) | [Lekce 3](lekce003.md) | [Lekce 4](lekce004.md) | [Lekce 5](lekce005.md) | [Lekce 6](lekce006.md) | [Lekce 7](lekce007.md) | [Lekce 8](lekce008.md) | [Lekce 9](lekce009.md) | [Lekce 10](lekce010.md) | [Lekce 11](lekce011.md) | [Lekce 12](lekce012.md) | [Lekce 13](lekce013.md)
+[Lekce 1](lekce001.md) | [Lekce 2](lekce002.md) | [Lekce 3](lekce003.md) | [Lekce 4](lekce004.md) | [Lekce 5](lekce005.md) | [Lekce 6](lekce006.md) | [Lekce 7](lekce007.md) | [Lekce 8](lekce008.md) | [Lekce 9](lekce009.md) | [Lekce 10](lekce010.md) | [Lekce 11](lekce011.md) | [Lekce 12](lekce012.md) | [Lekce 13](lekce013.md) | [Lekce 14](lekce014.md) | [Lekce 15](lekce015.md) | [Lekce 16](lekce016.md) | [Lekce 17](lekce017.md) | [Lekce 18](lekce018.md) | [Lekce 19](lekce019.md) | [Lekce 20](lekce020.md)
 
 ## 1. Článek
 למרות שהעברית הרשמית יפה מאוד, ביומיום הישראלים משתמשים בסלנג רב. אם מישהו אומר לכם "חבל על הזמן", הוא בדרך כלל מתכוון שמשהו היה מצוין. המילה "תכלס" עוזרת לנו להגיע לעיקר השיחה. כשקורה משהו מביך, אנחנו קוראים לזה "פדיחה". בסופו של דבר, הכי חשוב שהכל יהיה "סבבה".
@@ -30,16 +30,16 @@
 ## 5. Anki náhled
 ```text
 #Slovíčko;Kořen;Výslovnost;Význam;Příklad;Tag
-סבבה;---;sababa;v pohodě / OK;הכל סבבה;slang lekce007
-פדיחה;---;fadicha;trapas / ostuda;הייתה לי פדיחה;slang lekce007
-אשכרה;---;aškara;fakt / vážně;הוא אשכרה אמר את זה;slang lekce007
-תכלס;---;tachles;vlastně / k věci;תכלס, אתה צודק;slang lekce007
-בקטנה;ק.ט.נ;bektana;v pohodě / maličkost;עזוב, זה בקטנה;slang lekce007
-אחלה;---;achla;skvělý / super;אחלה יום שיהיה לך;slang lekce007
-כאילו;כ.א.ל;ke'ilu;jako / jakoby;זה כאילו חלום;slang lekce007
-נראה לי;ר.א.ה;nir'e li;zdá se mi / myslím;נראה לי שזה נכון;slang lekce007
-יאללה;---;jalla;tak pojď / šup;יאללה, בוא נלך;slang lekce007
-מביך;ב.ו.ך;mevich;trapný;סיטואציה מביכה;slang lekce007
+סבבה;---;sababa;v pohodě / OK;הכל סבבה;příslovce slang lekce007
+פדיחה;---;fadicha;trapas / ostuda;הייתה לי פדיחה;podst_jméno slang lekce007
+אשכרה;---;aškara;fakt / vážně;הוא אשכרה אמר את זה;příslovce slang lekce007
+תכלס;---;tachles;vlastně / k věci;תכלס, אתה צודק;příslovce slang lekce007
+בקטנה;ק.ט.נ;bektana;v pohodě / maličkost;עזוב, זה בקטנה;fráze slang lekce007
+אחלה;---;achla;skvělý / super;אחלה יום שיהיה לך;příd_jméno slang lekce007
+כאילו;כ.א.ל;ke'ilu;jako / jakoby;זה כאילו חלום;příslovce slang lekce007
+נראה לי;ר.א.ה;nir'e li;zdá se mi / myslím;נראה לי שזה נכון;fráze slang lekce007
+יאללה;---;jalla;tak pojď / šup;יאללה, בוא נלך;fráze slang lekce007
+מביך;ב.ו.ך;mevich;trapný;סיטואציה מביכה;příd_jméno slang lekce007
 ```
 
 ## 6. Řešení

@@ -1,11 +1,11 @@
 ﻿#Slovíčko;Kořen;Výslovnost;Význam;Příklad;Tag
-טיפול;ט.פ.ל;tipul;léčba / péče;טיפול רפואی;zdraví lekce008
-בדיקה;ב.ד.ק;bdika;kontrola / test;בדיקת דם;zdraví lekce008
-תרופה;ר.פ.א;trufa;lék;לקחת תרופה;zdraví lekce008
-מרשם;ר.ש.ם;miršam;recept;מרשם מהרופא;zdraví lekce008
-מחלה;ח.ל.ה;machala;nemoc;מחלה קשה;zdraví lekce008
-החלמה;ח.ל.ם;hachlama;zotavení;החלמה מהירה;zdraví lekce008
-כאב;כ.א.ב;ke'ev;bolest;כאב ראש;zdraví lekce008
-רגישות;ר.ג.ש;regišut;citlivost / alergie;רגישות לפניצילין;zdraví lekce008
-דלקת;ד.ל.ק;daleket;zánět;דלקת גרון;zdraví lekce008
-אבחנה;ב.ח.ן;abchana;diagnóza;אבחנה מדויקת;zdraví lekce008
+טיפול;ט.פ.ל;tipul;léčba / péče;טיפול רפואי;podst_jméno zdraví lekce008
+בדיקה;ב.ד.ק;bdika;kontrola / test;בדיקת דם;podst_jméno zdraví lekce008
+תרופה;ר.פ.א;trufa;lék;לקחת תרופה;podst_jméno zdraví lekce008
+מרשם;ר.ש.ם;miršam;recept;מרשם מהרופא;podst_jméno zdraví lekce008
+מחלה;ח.ל.ה;machala;nemoc;מחלה קשה;podst_jméno zdraví lekce008
+החלמה;ח.ל.ם;hachlama;zotavení;החלמה מהירה;podst_jméno zdraví lekce008
+כאב;כ.א.ב;ke'ev;bolest;כאב ראש;podst_jméno zdraví lekce008
+רגישות;ר.ג.ש;regišut;citlivost / alergie;רגישות לפניצילין;podst_jméno zdraví lekce008
+דלקת;ד.ל.ק;daleket;zánět;דלקת גרון;podst_jméno zdraví lekce008
+אבחנה;ב.ח.ן;abchana;diagnóza;אבחנה מדויקת;podst_jméno zdraví lekce008

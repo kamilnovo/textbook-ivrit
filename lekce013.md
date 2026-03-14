@@ -1,9 +1,9 @@
 # Lekce 13: Kultura a svátky
 
-[Lekce 1](lekce001.md) | [Lekce 2](lekce002.md) | [Lekce 3](lekce003.md) | [Lekce 4](lekce004.md) | [Lekce 5](lekce005.md) | [Lekce 6](lekce006.md) | [Lekce 7](lekce007.md) | [Lekce 8](lekce008.md) | [Lekce 9](lekce009.md) | [Lekce 10](lekce010.md) | [Lekce 11](lekce011.md) | [Lekce 12](lekce012.md) | [Lekce 13](lekce013.md)
+[Lekce 1](lekce001.md) | [Lekce 2](lekce002.md) | [Lekce 3](lekce003.md) | [Lekce 4](lekce004.md) | [Lekce 5](lekce005.md) | [Lekce 6](lekce006.md) | [Lekce 7](lekce007.md) | [Lekce 8](lekce008.md) | [Lekce 9](lekce009.md) | [Lekce 10](lekce010.md) | [Lekce 11](lekce011.md) | [Lekce 12](lekce012.md) | [Lekce 13](lekce013.md) | [Lekce 14](lekce014.md) | [Lekce 15](lekce015.md) | [Lekce 16](lekce016.md) | [Lekce 17](lekce017.md) | [Lekce 18](lekce018.md) | [Lekce 19](lekce019.md) | [Lekce 20](lekce020.md)
 
 ## 1. Článek
-התרבות הישראלית היא פסיפס מרתק של מסורת יהודית ומודרניות מערבית. החגים הלאומיים, כמו יום העצמאות ויום הזיכרון, ממלאים תפקי드 מרכזי. ביום העצמאות נהוג לערוך פיקניקים ולצפות במטס של חיל האוויר, בעוד שביום הזיכרון שוררת אווירה של הזכרה עם הנופלים. מוזיקה ישראלית משקפת את הגעגועים והתקוות של החברה.
+התרבות הישראלית היא פסיפס מרתק של מסורת יהודית ומודרניות מערבית. החגים הלאומיים, כמו יום העצמאות ויום הזיכרון, ממלאים תפקיד מרכזי. ביום העצמאות נהוג לערוך פיקניקים ולצפות במטס של חיל האוויר, בעוד שביום הזיכרון שוררת אווירה של הזכרה עם הנופלים. מוזיקה ישראלית משקפת את הגעגועים והתקוות של החברה.
 
 ## 2. Slovíčka
 | Hebrejsky | Kořen | Výslovnost | Význam | Příklad |
@@ -30,16 +30,16 @@
 ## 5. Anki náhled
 ```text
 #Slovíčko;Kořen;Výslovnost;Význam;Příklad;Tag
-תרבות;ר.ב.ה;tarbut;kultura;תרבות ישראלית;kultura lekce013
-פסיפס;---;psifas;mozaika;פסיפס מרתק;kultura lekce013
-מסורת;מ.ס.ר;masoret;tradice;מסורת יהודית;kultura lekce013
-לאומי;ל.א.ם;le'umi;národní;חגים לאומיים;kultura lekce013
-עצמאות;ע.צ.ם;acma'ut;nezávislost;יום העצמאות;kultura lekce013
-זיכרון;ז.כ.ר;zikaron;paměť / vzpomínka;יום הזיכרון;kultura lekce013
-מטס;ט.ו.ס;matas;letecká přehlídka;מטס חיל האוויר;kultura lekce013
-הזכרה;ז.כ.ר;hazkara;vzpomínkový obřad / pieta;טקס הזכרה;kultura lekce013
-געגוע;ג.ע.ג.ע;ga'agua;stesk / touha;געגועים ותקוות;kultura lekce013
-תקווה;ק.ו.ה;tikva;naděje;התקווה היא ההמנון;kultura lekce013
+תרבות;ר.ב.ה;tarbut;kultura;תרבות ישראלית;podst_jméno kultura lekce013
+פסיפס;---;psifas;mozaika;פסיפס מרתק;podst_jméno kultura lekce013
+מסורת;מ.ס.ר;masoret;tradice;מסורת יהודית;podst_jméno kultura lekce013
+לאומי;ל.א.ם;le'umi;národní;חגים לאומיים;příd_jméno kultura lekce013
+עצמאות;ע.צ.ם;acma'ut;nezávislost;יום העצמאות;podst_jméno kultura lekce013
+זיכרון;ז.כ.ר;zikaron;paměť / vzpomínka;יום הזיכרון;podst_jméno kultura lekce013
+מטס;ט.ו.ס;matas;letecká přehlídka;מטס חיל האוויר;podst_jméno kultura lekce013
+הזכרה;ז.כ.ר;hazkara;vzpomínkový obřad / pieta;טקס הזכרה;podst_jméno kultura lekce013
+געגוע;ג.ע.ג.ע;ga'agua;stesk / touha;געגועים ותקוות;podst_jméno kultura lekce013
+תקווה;ק.ו.ה;tikva;naděje;התקווה היא ההמנון;podst_jméno kultura lekce013
 ```
 
 ## 6. Řešení

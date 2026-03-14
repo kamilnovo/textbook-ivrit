@@ -1,11 +1,11 @@
 ﻿#Slovíčko;Kořen;Výslovnost;Význam;Příklad;Tag
-מגזר;ג.ז.ר;migzar;sektor / odvětví;המגזר החרדי;společnost lekce011
-חילוני;ח.ל.נ;chiloni;sekulární;בית ספר חילוני;společnost lekce011
-דתי;ד.ת;dati;náboženský;משפחה דתית;společnost lekce011
-חרדי;ח.ר.ד;charedi;ultraortodoxní;הציבור החרדי;společnost lekce011
-זהות;ז.ה.ה;zehut;identita;זהות לאומית;společnost lekce011
-עולה חדש;ע.ל.ה;ole chadaš;nový přistěhovalec;קליטת עולים חדשים;společnost lekce011
-סובלנות;ס.ב.ל;sovlanut;tolerance;סובלנות הדדית;společnost lekce011
-הדדי;ה.ד.ד;hadadi;vzájemný;כבוד הדדי;společnost lekce011
-קליטה;ק.ל.ט;klita;přijetí / absorpce;מרכז קליטה;společnost lekce011
-מתח;מ.ת.ח;metach;napětí / stres;מתח חברתי גבוה;společnost lekce011
+מגזר;ג.ז.ר;migzar;sektor / odvětví;המגזר החרדי;podst_jméno společnost lekce011
+חילוני;ח.ל.נ;chiloni;sekulární;בית ספר חילוני;příd_jméno společnost lekce011
+דתי;ד.ת;dati;náboženský;משפחה דתית;příd_jméno společnost lekce011
+חרדי;ח.ר.ד;charedi;ultraortodoxní;הציבור החרדי;příd_jméno společnost lekce011
+זהות;ז.ה.ה;zehut;identita;זהות לאומית;podst_jméno společnost lekce011
+עולה חדש;ע.ל.ה;ole chadaš;nový přistěhovalec;קליטת עולים חדשים;podst_jméno společnost lekce011
+סובלנות;ס.ב.ל;sovlanut;tolerance;סובלנות הדדית;podst_jméno společnost lekce011
+הדדי;ה.ד.ד;hadadi;vzájemný;כבוד הדדי;příd_jméno společnost lekce011
+קליטה;ק.ל.ט;klita;přijetí / absorpce;מרכז קליטה;podst_jméno společnost lekce011
+מתח;מ.ת.ח;metach;napětí / stres;מתח חברתי גבוה;podst_jméno společnost lekce011
