@@ -398,20 +398,20 @@ def generate_lessons():
         html = f"""<!DOCTYPE html>
         <html lang="cs">
         <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preload" href="style.css" as="style">
-        <link rel="stylesheet" href="style.css">
-        <title>Lekce {l_num}</title>
-        <script>
-            (function() {{
-                const sw = localStorage.getItem('sidebarWidth') || '300';
-                const s = document.createElement('style');
-                s.innerHTML = ':root {{ --sidebar-width: ' + sw + 'px; }}';
-                document.head.appendChild(s);
-            }})();
-        </script>
+            <meta charset="UTF-8">
+            <script>
+                (function() {{
+                    const sw = localStorage.getItem('sidebarWidth');
+                    if (sw) {{
+                        document.documentElement.style.setProperty('--sidebar-width', sw + 'px');
+                    }}
+                }})();
+            </script>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+            <title>Ivrit: Další krok - Úvod</title>
         </head>
+
 
         {html_sidebar}
         <div class="content">
@@ -490,19 +490,19 @@ def generate_lessons():
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preload" href="style.css" as="style">
-    <link rel="stylesheet" href="style.css">
-    <title>Ivrit: Další krok - Úvod</title>
     <script>
         (function() {{
-            const sw = localStorage.getItem('sidebarWidth') || '300';
-            const s = document.createElement('style');
-            s.innerHTML = ':root {{ --sidebar-width: ' + sw + 'px; }}';
-            document.head.appendChild(s);
+            const sw = localStorage.getItem('sidebarWidth');
+            if (sw) {{
+                document.documentElement.style.setProperty('--sidebar-width', sw + 'px');
+            }}
         }})();
     </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ivrit: Další krok - Úvod</title>
 </head>
+
 
     {index_sidebar}
     <div class="content">
