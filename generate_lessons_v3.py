@@ -390,7 +390,7 @@ def generate_lessons():
         for link, name in sidebar_links:
             active = ' class="active"' if link == f'lekce{l_id}.html' else ''
             html_sidebar += f'<a href="{link}"{active}>{name}</a>'
-        html_sidebar += '</div>'
+        html_sidebar += '</div><div class="resizer"></div></div>'
         
         # HTML Content
         html = f"""<!DOCTYPE html>

@@ -5,8 +5,9 @@ body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.5; margin: 0; 
 .sidebar a { display: block; color: #ecf0f1; text-decoration: none; padding: 8px 5px; border-bottom: 1px solid #3e4f5f; font-size: 0.9em; }
 .sidebar a:hover { background-color: #34495e; color: #3498db; }
 .sidebar a.active { color: #3498db; font-weight: bold; }
-.resizer { width: 6px; height: 100%; background: rgba(0,0,0,0.1); cursor: col-resize; position: absolute; right: 0; top: 0; z-index: 1001; transition: background 0.2s; }
-.resizer:hover, .resizer.resizing { background: #3498db; width: 8px; }
+body.resizing-active { user-select: none !important; -webkit-user-select: none !important; }
+.resizer { width: 8px; height: 100%; background: transparent; cursor: col-resize; position: absolute; right: -4px; top: 0; z-index: 1001; }
+.resizer:hover, .resizer.resizing { background: rgba(52, 152, 219, 0.5); }
 .content { margin-left: 250px; padding: 40px 60px; width: 100%; background-color: white; min-height: 100vh; box-sizing: border-box; flex: 1; }
 .main-header { text-align: center; margin-bottom: 30px; }
 .main-header h1 { margin: 0; font-size: 2.2em; color: #2c3e50; }

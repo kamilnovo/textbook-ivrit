@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
         isResizing = true;
         resizer.classList.add("resizing");
+        document.body.classList.add("resizing-active");
         document.body.style.cursor = "col-resize";
-        document.body.style.userSelect = "none";
     });
 
     window.addEventListener("mousemove", (e) => {
@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (isResizing) {
             isResizing = false;
             resizer.classList.remove("resizing");
+            document.body.classList.remove("resizing-active");
             document.body.style.cursor = "default";
-            document.body.style.userSelect = "auto";
         }
     });
 });
