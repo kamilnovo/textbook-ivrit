@@ -386,7 +386,7 @@ def generate_lessons():
         l_num = int(l_id)
         
         # HTML Sidebar
-        html_sidebar = '<div class="sidebar"><h2>Obsah</h2><div class="resizer"></div>'
+        html_sidebar = '<div class="sidebar"><div class="sidebar-nav"><h2>Obsah</h2>'
         for link, name in sidebar_links:
             active = ' class="active"' if link == f'lekce{l_id}.html' else ''
             html_sidebar += f'<a href="{link}"{active}>{name}</a>'
@@ -467,7 +467,7 @@ def generate_lessons():
             f.write(md)
 
     # Update index.html sidebar
-    index_sidebar = '<div class="sidebar"><h2>Obsah</h2><div class="resizer"></div>'
+    index_sidebar = '<div class="sidebar"><div class="sidebar-nav"><h2>Obsah</h2>'
     for link, name in sidebar_links:
         active = ' class="active"' if link == 'index.html' else ''
         index_sidebar += f'<a href="{link}"{active}>{name}</a>'
