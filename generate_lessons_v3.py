@@ -2,7 +2,16 @@
 import os
 
 def generate_lessons():
-    sidebar_links = [('index.html', 'Úvod')] + [(f'lekce{i:03d}.html', f'Lekce {i}') for i in range(1, 21)]
+    lesson_titles = [
+        "Média a aktuality", "Technologie a high-tech", "Práce a kariéra", 
+        "Psychologie a emoce", "Právo a společnost", "Kultura a volný čas",
+        "Slang a idiomy", "Zdraví a medicína", "Příroda a cestování",
+        "Vzdělání a věda", "Izraelská společnost", "Život a práce v Izraeli",
+        "Kultura a svátky", "Válka a bezpečnost", "Gastronomie a jídlo",
+        "Historie a Jeruzalém", "Moderní Tel Aviv", "Příroda a Počasí",
+        "Doprava a infrastruktura", "Izraelská rodina a sny"
+    ]
+    sidebar_links = [('index.html', 'Úvod')] + [(f'lekce{i:03d}.html', f'Lekce {i}: {lesson_titles[i-1]}') for i in range(1, 21)]
     md_nav = ' | '.join([f'[Lekce {i}]({f"lekce{i:03d}.md"})' for i in range(1, 21)])
 
     # Full set of 20 lessons data
@@ -38,17 +47,6 @@ def generate_lessons():
         },
         # ... (simplified data for other lessons for brevity, but script will generate all)
     ]
-    # Add dummy data for lessons 3-20 to ensure 20 files exist
-    lesson_titles = [
-        "Média a aktuality", "Technologie a high-tech", "Práce a kariéra", 
-        "Psychologie a emoce", "Právo a společnost", "Kultura a volný čas",
-        "Slang a idiomy", "Zdraví a medicína", "Příroda a cestování",
-        "Vzdělání a věda", "Izraelská společnost", "Život a práce v Izraeli",
-        "Kultura a svátky", "Válka a bezpečnost", "Gastronomie a jídlo",
-        "Historie a Jeruzalém", "Moderní Tel Aviv", "Příroda a Počasí",
-        "Doprava a infrastruktura", "Izraelská rodina a sny"
-    ]
-    
     # Fill up missing lessons in data if they are not defined
     existing_ids = [l['id'] for l in lessons]
     for i in range(1, 21):
