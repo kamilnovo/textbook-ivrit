@@ -1,32 +1,40 @@
+console.log("Ivrit script loaded");
 document.addEventListener('DOMContentLoaded', () => {
     const sidebar = document.querySelector('.sidebar');
     const content = document.querySelector('.content');
     const resizer = document.querySelector('.resizer');
     
-    if (!resizer) return;
+    if (!resizer) {
+        console.error("Resizer element not found!");
+        return;
+    }
 
     let isResizing = false;
 
     resizer.addEventListener('mousedown', (e) => {
         isResizing = true;
         document.body.style.cursor = 'col-resize';
-        document.body.style.userSelect = 'none';
+        resizer.style.background = '#3498db'; // Highlight while dragging
+        console.log("Resize started");
     });
 
-    document.addEventListener('mousemove', (e) => {
+    window.addEventListener('mousemove', (e) => {
         if (!isResizing) return;
         
         let newWidth = e.clientX;
         if (newWidth < 150) newWidth = 150;
-        if (newWidth > 500) newWidth = 500;
+        if (newWidth > 600) newWidth = 600;
         
         sidebar.style.width = newWidth + 'px';
         content.style.marginLeft = newWidth + 'px';
     });
 
-    document.addEventListener('mouseup', () => {
-        isResizing = false;
-        document.body.style.cursor = 'default';
-        document.body.style.userSelect = 'auto';
+    window.addEventListener('mouseup', () => {
+        if (isResizing) {
+            isResizing = false;
+            document.body.style.cursor = 'default';
+            resizer.style.background = 'transparent';
+            console.log("Resize finished");
+        }
     });
 });
