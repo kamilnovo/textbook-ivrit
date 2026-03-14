@@ -398,18 +398,21 @@ def generate_lessons():
         html = f"""<!DOCTYPE html>
         <html lang="cs">
         <head>
-            <meta charset="UTF-8">
-            <script>
-                (function() {{
-                    const sw = localStorage.getItem('sidebarWidth');
-                    if (sw) {{
-                        document.documentElement.style.setProperty('--sidebar-width', sw + 'px');
-                    }}
-                }})();
-            </script>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="style.css">
-            <title>Ivrit: Další krok - Úvod</title>
+        <meta charset="UTF-8">
+        <script>
+            (function() {{
+                const sw = localStorage.getItem('sidebarWidth') || '300';
+                document.documentElement.style.setProperty('--sidebar-width', sw + 'px');
+            }})();
+        </script>
+        <style>
+            .sidebar {{ width: var(--sidebar-width, 300px); background-color: #2c3e50; color: white; position: fixed; height: 100vh; display: flex; z-index: 1000; left: 0; top: 0; }}
+            .content {{ margin-left: var(--sidebar-width, 300px); flex: 1; }}
+            body {{ margin: 0; display: flex; background-color: #f8f9fa; }}
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Lekce {l_num}</title>
         </head>
 
 
@@ -492,12 +495,15 @@ def generate_lessons():
     <meta charset="UTF-8">
     <script>
         (function() {{
-            const sw = localStorage.getItem('sidebarWidth');
-            if (sw) {{
-                document.documentElement.style.setProperty('--sidebar-width', sw + 'px');
-            }}
+            const sw = localStorage.getItem('sidebarWidth') || '300';
+            document.documentElement.style.setProperty('--sidebar-width', sw + 'px');
         }})();
     </script>
+    <style>
+        .sidebar {{ width: var(--sidebar-width, 300px); background-color: #2c3e50; color: white; position: fixed; height: 100vh; display: flex; z-index: 1000; left: 0; top: 0; }}
+        .content {{ margin-left: var(--sidebar-width, 300px); flex: 1; }}
+        body {{ margin: 0; display: flex; background-color: #f8f9fa; }}
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Ivrit: Další krok - Úvod</title>
