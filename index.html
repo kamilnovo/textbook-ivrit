@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css?v=1773499226">
+    <link rel="stylesheet" href="style.css?v=1773499327">
     <title>Ivrit: Další krok - Úvod</title>
     <script>
         (function() {
             const sw = localStorage.getItem('sidebarWidth');
             if (sw) {
                 document.documentElement.style.setProperty('--sidebar-width', sw + 'px');
+                // Force immediate re-layout for some browsers
+                document.documentElement.setAttribute('data-sidebar-set', 'true');
             }
         })();
     </script>
@@ -29,7 +31,7 @@
                 <li><strong>Témata:</strong> Články čerpají ze současnosti.</li>
             </ul>
         </div>
-        <script src="script.js?v=1773499226"></script>
+        <script src="script.js?v=1773499327"></script>
     </div>
 </body>
 </html>

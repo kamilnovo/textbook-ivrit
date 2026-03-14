@@ -501,6 +501,8 @@ def generate_lessons():
             const sw = localStorage.getItem('sidebarWidth');
             if (sw) {{
                 document.documentElement.style.setProperty('--sidebar-width', sw + 'px');
+                // Force immediate re-layout for some browsers
+                document.documentElement.setAttribute('data-sidebar-set', 'true');
             }}
         }})();
     </script>
