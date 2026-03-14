@@ -3,19 +3,19 @@
         <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preload" href="style.css" as="style">
         <link rel="stylesheet" href="style.css">
         <title>Lekce 11</title>
         <script>
             (function() {
-                const sw = localStorage.getItem('sidebarWidth');
-                if (sw) {
-                    document.documentElement.style.setProperty('--sidebar-width', sw + 'px');
-                    document.documentElement.setAttribute('data-sidebar-set', 'true');
-                }
+                const sw = localStorage.getItem('sidebarWidth') || '300';
+                const s = document.createElement('style');
+                s.innerHTML = ':root { --sidebar-width: ' + sw + 'px; }';
+                document.head.appendChild(s);
             })();
         </script>
         </head>
-        <body>
+
         <div class="sidebar"><div class="sidebar-nav"><h2>Obsah</h2><a href="index.html">Úvod</a><a href="lekce001.html">Lekce 1: Média a aktuality</a><a href="lekce002.html">Lekce 2: Technologie a high-tech</a><a href="lekce003.html">Lekce 3: Práce a kariéra</a><a href="lekce004.html">Lekce 4: Psychologie a emoce</a><a href="lekce005.html">Lekce 5: Právo a společnost</a><a href="lekce006.html">Lekce 6: Kultura a volný čas</a><a href="lekce007.html">Lekce 7: Slang a idiomy</a><a href="lekce008.html">Lekce 8: Zdraví a medicína</a><a href="lekce009.html">Lekce 9: Příroda a cestování</a><a href="lekce010.html">Lekce 10: Vzdělání a věda</a><a href="lekce011.html" class="active">Lekce 11: Izraelská společnost</a><a href="lekce012.html">Lekce 12: Život a práce v Izraeli</a><a href="lekce013.html">Lekce 13: Kultura a svátky</a><a href="lekce014.html">Lekce 14: Válka a bezpečnost</a><a href="lekce015.html">Lekce 15: Gastronomie a jídlo</a><a href="lekce016.html">Lekce 16: Historie a Jeruzalém</a><a href="lekce017.html">Lekce 17: Moderní Tel Aviv</a><a href="lekce018.html">Lekce 18: Příroda a Počasí</a><a href="lekce019.html">Lekce 19: Doprava a infrastruktura</a><a href="lekce020.html">Lekce 20: Izraelská rodina a sny</a></div><div class="resizer"></div></div>
         <div class="content">
         <div class="main-header">

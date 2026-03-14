@@ -400,19 +400,19 @@ def generate_lessons():
         <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preload" href="style.css" as="style">
         <link rel="stylesheet" href="style.css">
         <title>Lekce {l_num}</title>
         <script>
             (function() {{
-                const sw = localStorage.getItem('sidebarWidth');
-                if (sw) {{
-                    document.documentElement.style.setProperty('--sidebar-width', sw + 'px');
-                    document.documentElement.setAttribute('data-sidebar-set', 'true');
-                }}
+                const sw = localStorage.getItem('sidebarWidth') || '300';
+                const s = document.createElement('style');
+                s.innerHTML = ':root {{ --sidebar-width: ' + sw + 'px; }}';
+                document.head.appendChild(s);
             }})();
         </script>
         </head>
-        <body>
+
         {html_sidebar}
         <div class="content">
         <div class="main-header">
@@ -491,19 +491,19 @@ def generate_lessons():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="style.css" as="style">
     <link rel="stylesheet" href="style.css">
     <title>Ivrit: Další krok - Úvod</title>
     <script>
         (function() {{
-            const sw = localStorage.getItem('sidebarWidth');
-            if (sw) {{
-                document.documentElement.style.setProperty('--sidebar-width', sw + 'px');
-                document.documentElement.setAttribute('data-sidebar-set', 'true');
-            }}
+            const sw = localStorage.getItem('sidebarWidth') || '300';
+            const s = document.createElement('style');
+            s.innerHTML = ':root {{ --sidebar-width: ' + sw + 'px; }}';
+            document.head.appendChild(s);
         }})();
     </script>
 </head>
-<body>
+
     {index_sidebar}
     <div class="content">
         <div class="main-header">
