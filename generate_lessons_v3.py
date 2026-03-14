@@ -1,6 +1,8 @@
 import os
 
 def generate_lessons():
+    import time
+    version = int(time.time())
     # Define sidebar links for all 20 lessons + index.html
     sidebar_links = [('index.html', 'Úvod')]
     lesson_titles = [
@@ -398,7 +400,7 @@ def generate_lessons():
         <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css?v={version}">
         <title>Lekce {l_num}</title>
         </head>
         <body>
@@ -484,7 +486,7 @@ def generate_lessons():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v={version}">
     <title>Ivrit: Další krok - Úvod</title>
 </head>
 <body>
@@ -492,7 +494,7 @@ def generate_lessons():
     <div class="content">
         <div class="main-header">
             <h1>Ivrit: Další krok</h1>
-            <div class="heb-title">(עברית: הצעד הבא)</div>
+            <div class="heb-title">(עברית: הצעad הבא)</div>
         </div>
         <div class="grammar-box">
             <p>Vítejte v učebnici moderní hebrejštiny pro mírně pokročilé.</p>
@@ -502,7 +504,7 @@ def generate_lessons():
                 <li><strong>Témata:</strong> Články čerpají ze současnosti.</li>
             </ul>
         </div>
-        <script src="script.js"></script>
+        <script src="script.js?v={version}"></script>
     </div>
 </body>
 </html>"""
