@@ -20,3 +20,16 @@ th { background-color: #f8f9fa; font-weight: bold; text-align: center; }
 .example-rtl { direction: rtl; text-align: right; font-family: 'David CLM', serif; font-size: 1.35em; width: 30%; unicode-bidi: isolate; }
 .grammar-box { background-color: #f0f7ff; padding: 25px; border-right: 6px solid #3498db; border-radius: 4px; margin: 25px 0; }
 .anki-preview { background-color: #fff9db; padding: 20px; border: 2px dashed #f1c40f; font-family: 'Courier New', monospace; font-size: 1.1em; white-space: pre-wrap; margin-top: 30px; }
+.resizer {
+    width: 6px;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: col-resize;
+    transition: background 0.2s;
+}
+.resizer:hover {
+    background: rgba(52, 152, 219, 0.5);
+}

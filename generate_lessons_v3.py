@@ -386,7 +386,7 @@ def generate_lessons():
         l_num = int(l_id)
         
         # HTML Sidebar
-        html_sidebar = '<div class="sidebar"><h2>Obsah</h2>'
+        html_sidebar = '<div class="sidebar"><h2>Obsah</h2><div class="resizer"></div>'
         for link, name in sidebar_links:
             active = ' class="active"' if link == f'lekce{l_id}.html' else ''
             html_sidebar += f'<a href="{link}"{active}>{name}</a>'
@@ -435,7 +435,7 @@ def generate_lessons():
             <details><summary>Klikněte pro zobrazení</summary><ol>"""
         for ex in lesson['exercise']:
             html += f"<li>{ex[1]}</li>"
-        html += """</ol></details></div></div></body></html>"""
+        html += """</ol></details></div><script src="script.js"></script></div></body></html>"""
         
         with open(f'lekce{l_id}.html', 'w', encoding='utf-8') as f:
             f.write(html)
@@ -467,7 +467,7 @@ def generate_lessons():
             f.write(md)
 
     # Update index.html sidebar
-    index_sidebar = '<div class="sidebar"><h2>Obsah</h2>'
+    index_sidebar = '<div class="sidebar"><h2>Obsah</h2><div class="resizer"></div>'
     for link, name in sidebar_links:
         active = ' class="active"' if link == 'index.html' else ''
         index_sidebar += f'<a href="{link}"{active}>{name}</a>'
