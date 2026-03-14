@@ -516,12 +516,14 @@ def generate_lessons():
 
         </div>
         <div class="grammar-box">
-            <p>Vítejte v učebnici moderní hebrejštiny pro mírně pokročilé.</p>
+            <p>Vítejte v učebnici moderní hebrejštiny pro mírně pokročilé. Tato učebnice je navržena pro studenty, kteří již ovládají základy a chtějí se posunout k reálnému využití jazyka.</p>
             <h3>O učebnici</h3>
             <ul>
                 <li><strong>Cíl:</strong> Rozšíření slovní zásoby tempem 10 slovíček na lekci.</li>
-                <li><strong>Témata:</strong> Články čerpají ze současnosti.</li>
+                <li><strong>Témata:</strong> Články čerpají ze současnosti a snaží se zachytit běžnou mluvu (např. z rozhlasu).</li>
+                <li><strong>Struktura:</strong> Článek, Slovíčka (v pořadí textu), Gramatika, Cvičení, Anki balíček.</li>
             </ul>
+            <p>Navazuje na úroveň, kde končí hebrejský kurz Duolingo.</p>
         </div>
         <script src="script.js?v={version}"></script>
     </div>
